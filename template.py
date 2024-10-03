@@ -13,7 +13,7 @@ list_of_files = [
     "setup.py",
     "app.py",
     "research/trials.ipynb",
-    "test.py"
+    "research/Data",
 ]
 
 #for operating in different kinds of OS - this code is for it ,
