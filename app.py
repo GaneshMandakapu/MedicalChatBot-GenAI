@@ -16,9 +16,8 @@ load_dotenv()
 PINECONE_API_KEY=os.environ.get('PINECONE_API_KEY')
 OPENAI_API_KEY=os.environ.get('OPENAI_API_KEY')
 
-os.environ["PINECONE_API_KEY"] = "22880f0f-6edd-4dd6-afd1-efb30524878b"
-os.environ["OPENAI_API_KEY"] = "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"
-
+os.environ["PINECONE_API_KEY"] = ""
+os.environ["OPENAI_API_KEY"] = ""
 embeddings = download_hugging_face_embeddings()
 
 
