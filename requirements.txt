@@ -9,4 +9,3 @@ langchain-community
 langchain-openai
 
 langchain-experimental
--e .

@@ -5,7 +5,7 @@ FROM python:3.10-slim-buster
 WORKDIR /app
 
 # Step 3: Copy necessary files to the Docker image
-COPY requirements.txt /app/  
+COPY requirements.txt /app/
 COPY templates /app/
 
 # Step 4: Install dependencies
